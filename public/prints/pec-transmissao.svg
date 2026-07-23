@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" font-family="Arial, sans-serif">
+  <rect width="960" height="540" fill="#f4f6f8"/>
+  <rect x="0" y="0" width="960" height="48" fill="#1351B4"/>
+  <text x="24" y="30" font-size="16" fill="#ffffff" font-weight="bold">e-SUS APS · PEC — Transmissão de Dados</text>
+  <!-- status do serviço -->
+  <rect x="24" y="72" width="440" height="70" rx="6" fill="#ffffff" stroke="#dee2e6"/>
+  <text x="40" y="96" font-size="11" fill="#868e96">Status do serviço</text>
+  <circle cx="48" cy="118" r="6" fill="#c2402a"/>
+  <text x="64" y="123" font-size="14" fill="#c2402a" font-weight="bold">Sem conexão com o Centralizador Nacional</text>
+  <rect x="496" y="72" width="440" height="70" rx="6" fill="#ffffff" stroke="#dee2e6"/>
+  <text x="512" y="96" font-size="11" fill="#868e96">Próximo envio agendado</text>
+  <text x="512" y="123" font-size="14" fill="#212529" font-weight="bold">Hoje às 22:00</text>
+  <!-- tabela de lotes -->
+  <rect x="24" y="170" width="912" height="30" fill="#f8f9fa" stroke="#e9ecef"/>
+  <text x="40" y="190" font-size="12" fill="#495057" font-weight="bold">Lote</text>
+  <text x="200" y="190" font-size="12" fill="#495057" font-weight="bold">Fichas</text>
+  <text x="330" y="190" font-size="12" fill="#495057" font-weight="bold">Gerado em</text>
+  <text x="530" y="190" font-size="12" fill="#495057" font-weight="bold">Status</text>
+  <text x="40" y="224" font-size="13" fill="#212529">000412</text>
+  <text x="200" y="224" font-size="13" fill="#212529">183</text>
+  <text x="330" y="224" font-size="13" fill="#212529">18/06/2026 21:58</text>
+  <text x="530" y="224" font-size="13" fill="#168821">Enviado</text>
+  <rect x="24" y="240" width="912" height="30" fill="#fff3cd" stroke="#ffe69c"/>
+  <text x="40" y="260" font-size="13" fill="#212529" font-weight="bold">000413</text>
+  <text x="200" y="260" font-size="13" fill="#212529">207</text>
+  <text x="330" y="260" font-size="13" fill="#212529">19/06/2026 21:58</text>
+  <text x="530" y="260" font-size="13" fill="#b38c00" font-weight="bold">Não enviado</text>
+  <rect x="24" y="274" width="912" height="30" fill="#fff3cd" stroke="#ffe69c"/>
+  <text x="40" y="294" font-size="13" fill="#212529" font-weight="bold">000414</text>
+  <text x="200" y="294" font-size="13" fill="#212529">164</text>
+  <text x="330" y="294" font-size="13" fill="#212529">20/06/2026 21:58</text>
+  <text x="530" y="294" font-size="13" fill="#b38c00" font-weight="bold">Aguardando envio</text>
+  <!-- botão -->
+  <rect x="736" y="420" width="200" height="40" rx="20" fill="#1351B4"/>
+  <text x="768" y="445" font-size="14" fill="#ffffff" font-weight="bold">Enviar manualmente</text>
+  <text x="24" y="500" font-size="11" fill="#adb5bd">Imagem ilustrativa — protótipo</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" font-family="Arial, sans-serif">
+  <rect width="960" height="540" fill="#f4f6f8"/>
+  <rect x="0" y="0" width="960" height="48" fill="#168821"/>
+  <text x="24" y="30" font-size="16" fill="#ffffff" font-weight="bold">SI-PNI · Sistema de Informação do PNI</text>
+  <text x="840" y="30" font-size="13" fill="#d3f9d8">gov.br</text>
+  <!-- abas -->
+  <rect x="0" y="48" width="960" height="40" fill="#ffffff" stroke="#e1e5ea"/>
+  <text x="24" y="73" font-size="13" fill="#495057">Movimento de imunobiológico</text>
+  <rect x="250" y="48" width="150 " height="40" fill="#e6f4ea"/>
+  <text x="268" y="73" font-size="13" fill="#168821" font-weight="bold">Registro de dose</text>
+  <text x="430" y="73" font-size="13" fill="#495057">Relatórios</text>
+  <!-- busca cidadão -->
+  <rect x="24" y="110" width="912" height="52" rx="6" fill="#ffffff" stroke="#dee2e6"/>
+  <text x="40" y="130" font-size="11" fill="#868e96">Cidadão (CPF ou CNS)</text>
+  <text x="40" y="150" font-size="13" fill="#212529" font-weight="bold">JOÃO PEREIRA — CNS 700 0000 0000 0000</text>
+  <!-- doses -->
+  <rect x="24" y="180" width="912" height="30" fill="#f8f9fa" stroke="#e9ecef"/>
+  <text x="40" y="200" font-size="12" fill="#495057" font-weight="bold">Imunobiológico</text>
+  <text x="330" y="200" font-size="12" fill="#495057" font-weight="bold">Dose</text>
+  <text x="450" y="200" font-size="12" fill="#495057" font-weight="bold">Data</text>
+  <text x="600" y="200" font-size="12" fill="#495057" font-weight="bold">Estabelecimento</text>
+  <text x="830" y="200" font-size="12" fill="#495057" font-weight="bold">Origem</text>
+  <text x="40" y="234" font-size="13" fill="#212529">COVID-19</text>
+  <text x="330" y="234" font-size="13" fill="#212529">Reforço</text>
+  <text x="450" y="234" font-size="13" fill="#212529">12/03/2026</text>
+  <text x="600" y="234" font-size="13" fill="#212529">UBS Centro</text>
+  <text x="830" y="234" font-size="13" fill="#212529">RNDS</text>
+  <text x="40" y="268" font-size="13" fill="#212529">Influenza</text>
+  <text x="330" y="268" font-size="13" fill="#212529">Única</text>
+  <text x="450" y="268" font-size="13" fill="#212529">05/05/2026</text>
+  <text x="600" y="268" font-size="13" fill="#212529">UBS Centro</text>
+  <text x="830" y="268" font-size="13" fill="#212529">RNDS</text>
+  <!-- linha faltante destacada -->
+  <rect x="24" y="284" width="912" height="30" fill="#ffe3e3" stroke="#ffc9c9"/>
+  <text x="40" y="304" font-size="13" fill="#c2402a" font-weight="bold">Tríplice viral — dose aplicada não localizada</text>
+  <!-- botão -->
+  <rect x="756" y="420" width="180" height="40" rx="20" fill="#168821"/>
+  <text x="790" y="445" font-size="14" fill="#ffffff" font-weight="bold">Registrar dose</text>
+  <text x="24" y="500" font-size="11" fill="#adb5bd">Imagem ilustrativa — protótipo</text>
+</svg>
