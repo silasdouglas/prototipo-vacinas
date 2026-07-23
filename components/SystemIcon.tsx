@@ -10,17 +10,24 @@ const paths: Record<Sistema["icone"], React.ReactNode> = {
     />
   ),
   sipni: (
-    // seringa
-    <>
+    // seringa (desenhada na horizontal e girada 45°)
+    <g transform="rotate(-45 12 12)">
+      {/* agulha */}
+      <rect x="18.2" y="11.55" width="4.3" height="0.9" rx="0.45" fill="currentColor" />
+      {/* bico do corpo */}
+      <rect x="16.9" y="10.9" width="1.8" height="2.2" rx="0.6" fill="currentColor" />
+      {/* corpo com marcas de graduação vazadas */}
       <path
-        d="M17.6 2.8l3.6 3.6-1.3 1.3-1.15-1.15-1.5 1.5 1.9 1.9-8.7 8.7-3.7-3.7 8.7-8.7 1.9 1.9 1.5-1.5-1.15-1.15z"
+        fillRule="evenodd"
+        d="M8.2 9.3h8.3a1.2 1.2 0 0 1 1.2 1.2v3a1.2 1.2 0 0 1-1.2 1.2H8.2V9.3zm2.2 1.2h.9v2.1h-.9v-2.1zm2.4 0h.9v2.1h-.9v-2.1zm2.4 0h.9v2.1h-.9v-2.1z"
         fill="currentColor"
       />
-      <path
-        d="M5.7 16.1l2.2 2.2-1.4 1.4-1.2-.5-1.5 1.5-1.5-1.5 1.5-1.5-.5-1.2z"
-        fill="currentColor"
-      />
-    </>
+      {/* flange */}
+      <rect x="6.6" y="8.5" width="1.5" height="7" rx="0.75" fill="currentColor" />
+      {/* haste e cabo do êmbolo */}
+      <rect x="3" y="11.3" width="3.6" height="1.4" fill="currentColor" />
+      <rect x="2" y="10.1" width="1.6" height="3.8" rx="0.8" fill="currentColor" />
+    </g>
   ),
   esus: (
     // pin de território
